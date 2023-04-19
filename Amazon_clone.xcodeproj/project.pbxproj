@@ -9,21 +9,29 @@
 /* Begin PBXBuildFile section */
 		48E8B5B929EE75F600EAD2C5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E8B5B829EE75F600EAD2C5 /* AppDelegate.swift */; };
 		48E8B5BB29EE75F600EAD2C5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E8B5BA29EE75F600EAD2C5 /* SceneDelegate.swift */; };
-		48E8B5BD29EE75F600EAD2C5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E8B5BC29EE75F600EAD2C5 /* ViewController.swift */; };
+		48E8B5BD29EE75F600EAD2C5 /* searchResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E8B5BC29EE75F600EAD2C5 /* searchResultsViewController.swift */; };
 		48E8B5C029EE75F600EAD2C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48E8B5BE29EE75F600EAD2C5 /* Main.storyboard */; };
 		48E8B5C229EE75F800EAD2C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48E8B5C129EE75F800EAD2C5 /* Assets.xcassets */; };
 		48E8B5C529EE75F800EAD2C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48E8B5C329EE75F800EAD2C5 /* LaunchScreen.storyboard */; };
+		48E8B5CE29EE795400EAD2C5 /* SearchScreenTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E8B5CC29EE795400EAD2C5 /* SearchScreenTableViewCell.swift */; };
+		48E8B5CF29EE795400EAD2C5 /* SearchScreenTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48E8B5CD29EE795400EAD2C5 /* SearchScreenTableViewCell.xib */; };
+		B111351B5CAE53C9120791A7 /* Pods_Amazon_clone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C28A78FB1EBE05B8A8B1991 /* Pods_Amazon_clone.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2FE577ED99808ACB7AEE6E3E /* Pods-Amazon_clone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Amazon_clone.debug.xcconfig"; path = "Target Support Files/Pods-Amazon_clone/Pods-Amazon_clone.debug.xcconfig"; sourceTree = "<group>"; };
 		48E8B5B529EE75F600EAD2C5 /* Amazon_clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Amazon_clone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		48E8B5B829EE75F600EAD2C5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		48E8B5BA29EE75F600EAD2C5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		48E8B5BC29EE75F600EAD2C5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		48E8B5BC29EE75F600EAD2C5 /* searchResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = searchResultsViewController.swift; sourceTree = "<group>"; };
 		48E8B5BF29EE75F600EAD2C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		48E8B5C129EE75F800EAD2C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		48E8B5C429EE75F800EAD2C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		48E8B5C629EE75F800EAD2C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48E8B5CC29EE795400EAD2C5 /* SearchScreenTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchScreenTableViewCell.swift; sourceTree = "<group>"; };
+		48E8B5CD29EE795400EAD2C5 /* SearchScreenTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchScreenTableViewCell.xib; sourceTree = "<group>"; };
+		4C28A78FB1EBE05B8A8B1991 /* Pods_Amazon_clone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Amazon_clone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D14F71EFBDD4C6378854EC59 /* Pods-Amazon_clone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Amazon_clone.release.xcconfig"; path = "Target Support Files/Pods-Amazon_clone/Pods-Amazon_clone.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +39,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B111351B5CAE53C9120791A7 /* Pods_Amazon_clone.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		005A97728D3C955AA91E2758 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2FE577ED99808ACB7AEE6E3E /* Pods-Amazon_clone.debug.xcconfig */,
+				D14F71EFBDD4C6378854EC59 /* Pods-Amazon_clone.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		466A9D3400EDA9B332F24576 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4C28A78FB1EBE05B8A8B1991 /* Pods_Amazon_clone.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		48E8B5AC29EE75F600EAD2C5 = {
 			isa = PBXGroup;
 			children = (
 				48E8B5B729EE75F600EAD2C5 /* Amazon_clone */,
 				48E8B5B629EE75F600EAD2C5 /* Products */,
+				005A97728D3C955AA91E2758 /* Pods */,
+				466A9D3400EDA9B332F24576 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,11 +87,13 @@
 			children = (
 				48E8B5B829EE75F600EAD2C5 /* AppDelegate.swift */,
 				48E8B5BA29EE75F600EAD2C5 /* SceneDelegate.swift */,
-				48E8B5BC29EE75F600EAD2C5 /* ViewController.swift */,
+				48E8B5BC29EE75F600EAD2C5 /* searchResultsViewController.swift */,
 				48E8B5BE29EE75F600EAD2C5 /* Main.storyboard */,
 				48E8B5C129EE75F800EAD2C5 /* Assets.xcassets */,
 				48E8B5C329EE75F800EAD2C5 /* LaunchScreen.storyboard */,
 				48E8B5C629EE75F800EAD2C5 /* Info.plist */,
+				48E8B5CC29EE795400EAD2C5 /* SearchScreenTableViewCell.swift */,
+				48E8B5CD29EE795400EAD2C5 /* SearchScreenTableViewCell.xib */,
 			);
 			path = Amazon_clone;
 			sourceTree = "<group>";
@@ -74,6 +105,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 48E8B5C929EE75F800EAD2C5 /* Build configuration list for PBXNativeTarget "Amazon_clone" */;
 			buildPhases = (
+				1B5AEE79436C7BD3DBFA7568 /* [CP] Check Pods Manifest.lock */,
 				48E8B5B129EE75F600EAD2C5 /* Sources */,
 				48E8B5B229EE75F600EAD2C5 /* Frameworks */,
 				48E8B5B329EE75F600EAD2C5 /* Resources */,
@@ -128,19 +160,46 @@
 				48E8B5C529EE75F800EAD2C5 /* LaunchScreen.storyboard in Resources */,
 				48E8B5C229EE75F800EAD2C5 /* Assets.xcassets in Resources */,
 				48E8B5C029EE75F600EAD2C5 /* Main.storyboard in Resources */,
+				48E8B5CF29EE795400EAD2C5 /* SearchScreenTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1B5AEE79436C7BD3DBFA7568 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Amazon_clone-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		48E8B5B129EE75F600EAD2C5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				48E8B5BD29EE75F600EAD2C5 /* ViewController.swift in Sources */,
+				48E8B5BD29EE75F600EAD2C5 /* searchResultsViewController.swift in Sources */,
 				48E8B5B929EE75F600EAD2C5 /* AppDelegate.swift in Sources */,
 				48E8B5BB29EE75F600EAD2C5 /* SceneDelegate.swift in Sources */,
+				48E8B5CE29EE795400EAD2C5 /* SearchScreenTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +341,7 @@
 		};
 		48E8B5CA29EE75F800EAD2C5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FE577ED99808ACB7AEE6E3E /* Pods-Amazon_clone.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -310,6 +370,7 @@
 		};
 		48E8B5CB29EE75F800EAD2C5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D14F71EFBDD4C6378854EC59 /* Pods-Amazon_clone.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
